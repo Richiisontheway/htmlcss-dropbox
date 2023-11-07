@@ -13,23 +13,81 @@
 */
 
 .contenitore{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 
 }
-/* 
-    HEADER
-*/
-.header-container {
-    background-color:lightblue ;
-    width: calc(100% - 40px);
-    margin: 0 20px;
+.top-header-container {
+    width:100%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-/* .nd-column{
+.bottom-header-container{
+    background-color: #B4D0E7;
+}
+/* 
+    TOP-HEADER
+*/
+
+
+.header-st-column{
     display: flex;
-    justify-content: flex-start;
-    vertical-align: middle;
-} */
+    justify-content: space-between;
+}
+
+.img{
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.header-st-column > a {
+    margin-right: 15px;
+    color: black;
+}
+.nd-column a{
+    margin-right: 15px;
+    color: black;
+}
+.common-button{
+    background-color: #0061FF;
+    padding: 8px 15px;
+    color: white;
+}
+
+/* 
+    BOTTOM-HEADER
+*/
+
+
+h1{
+    font-size: 5em;
+    padding-top: 50px;
+}
+
+.info-header{
+    padding-top: 40px;
+    display: flex;
+    translate: 0 60px;
+}
+.info-header > .text-header-box{
+    width: 30%;
+}
+.info-header  p{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.benvenuto{
+    margin-top: 40px;
+}
+.header-box-img{
+    width: 70%;
+}
+.header-box-img img{
+    width: 100%;
+}
+.freccia-giu {
+    font-size: 4em;
+    margin-top: 60px;
+}
