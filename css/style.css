@@ -198,3 +198,43 @@ h5{
 /* 
     MAIN SECTION-2
 */
+.sect2{
+    width: 100%;
+    display: flex;
+}
+.img-container-sect2{
+    width: 70%;
+}
+.img-container-sect2 > img {
+    width: 100%;
+}
+.text-container-sect2{
+    width: 30%;
+}
+
+.text-container-sect2 > * {
+    margin: 30px 0 0 20px;
+}
+.text-container-sect2 a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+/* 
+    MAIN SECTION-3
+*/
+.sect3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-container-sect3{
+    width: 30%;
+}
+.img-container-sect3 > img {
+    width: 100%;
+}
+h3{
+    font-size: 2em;
+}
