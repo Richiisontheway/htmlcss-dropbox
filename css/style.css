@@ -13,7 +13,7 @@
 */
 
 .contenitore-header-footer{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .contenitore-main{
@@ -368,4 +368,33 @@ section > .sect5 > .logo2-sect5 img{
 .contenitore-main-sect7 > div{
     display:flex ;
     justify-content: space-between;
+}
+/* 
+    FOOTER
+*/
+footer{
+    background-color: black;
+}
+.lightskyblue{
+    width: 100%;
+    min-height: 400px;
+    padding: 20px 0;
+    display: flex;
+}
+
+.column{
+    padding: 25px 40px;
+    flex-direction: column;
+    width: calc(100% / 5);
+    font-size: larger;
+    color: white;
+}
+footer li{
+    font-size: smaller;
+}
+footer span{
+    color: gray;
+}
+#last{
+    padding: 25px 0;
 }
