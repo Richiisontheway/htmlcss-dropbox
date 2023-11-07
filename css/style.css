@@ -20,6 +20,13 @@
     max-width: 900px;
     margin: 0 auto;
 }
+.contenitore-main-sect6{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .top-header-container {
     width:100%;
     display: flex;
@@ -31,6 +38,9 @@
 }
 .border{
     border: 1px solid gray;
+    background-color: white;
+    padding: 10px;
+    color: black;
 }
 /* 
     TOP-HEADER
@@ -251,7 +261,7 @@ h3{
     MAIN SECTION-5
 */
 .sect5{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     height: calc(100vw / 3);
 }
@@ -324,4 +334,15 @@ h3{
 }
 .sect5-img4.ty{
     background-color: #FFD830;
+}
+/* 
+    MAIN SECTION-6
+*/
+.sect6{
+    background-color: #B4D0E7;
+}
+#red{
+    color:#61082B;
+    font-size: 1.75em;
+    padding: 70px 0;
 }
