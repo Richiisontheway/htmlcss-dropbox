@@ -287,6 +287,7 @@ section > .sect5 > .logo2-sect5 img{
     justify-content: center;
     width: 50%;
     background-color: #A2D39B;
+    border: 10px solid #d1e9ce;
 }
 .sect5-img1 > img{
     width: 50%;
