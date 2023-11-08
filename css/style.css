@@ -373,6 +373,9 @@ section > .sect5 > .logo2-sect5 img{
     display:flex ;
     justify-content: space-between;
 }
+.only-button > .border {
+    padding: 10px;
+}
 /* 
     FOOTER
 */
