@@ -45,7 +45,6 @@
 .border{
     border: 1px solid gray;
     background-color: white;
-    padding: 10px;
     color: black;
 }
 /* 
@@ -151,7 +150,11 @@ h2{
     text-align: center;
 }
 .user{
-    padding:10px 0;
+    margin: 20px 0;
+}
+.user > hr{
+    width: 100%;
+    color: black;
 }
 .column-container{
     text-align: left;
